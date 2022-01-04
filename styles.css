@@ -1,3 +1,7 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
 body {
 	margin: 0px;
 }
@@ -12,23 +16,16 @@ body {
 }
 
 .heading {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 17pt;
-	text-align: center;
 }
 .subheading {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 17pt;
-	text-align: center;
 }
 .subheading2 {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 22pt;
-	text-align: center;
 	font-weight: bold;
 }
 .navigation {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 13pt;
 	text-align: left;
 }
