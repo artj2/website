@@ -1,0 +1,35 @@
+* {
+    background-color: #324864;
+    font-family: "Neue Montreal", Helvetica, Arial, sans-serif;
+}
+nav {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited, a:active {
+    color: grey;
+}
+a:hover {
+    color: hotpink;
+}
+.left-nav {
+    display: flex;
+    padding-top: 1%;
+    gap: 5%;
+}
+.right-nav {
+    /* flex-basis: 255px; */
+    flex-basis: 555px;
+
+}
+.job-title, .me {
+    text-align: right;
+}
+.job-title {
+    font-size: 1.2em;
+}
