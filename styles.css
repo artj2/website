@@ -8,7 +8,8 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     /* position: sticky;
-    top: 0; */
+    top: 0;
+    align-self: flex-start; */
 }
 a {
     text-decoration: none;
@@ -38,12 +39,15 @@ a:hover {
 .content {
     display: flex;
     width: 100%;
-    gap: 15%;
+    /* gap: 50px; */
+    justify-content: space-between;
 }
 .left-scroll {
     width: 50%;
+    /* margin-top: -7%; */
 }
 .right-fixed {
+    flex-basis: 555px;
     position: sticky;
     top: 0;
     padding-top: 50px;
