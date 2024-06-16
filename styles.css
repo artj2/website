@@ -2,15 +2,6 @@
     background-color: #324864;
     font-family: "Neue Montreal", Helvetica, Arial, sans-serif;
 }
-nav {
-    display: flex;
-    padding: 0px 10px 0px 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* position: sticky;
-    top: 0;
-    align-self: flex-start; */
-}
 a {
     text-decoration: none;
 }
@@ -20,36 +11,38 @@ a:link, a:visited, a:active {
 a:hover {
     color: hotpink;
 }
-.left-nav {
+.container {
     display: flex;
-    padding-top: 1%;
-    gap: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 0cm;
 }
-.right-nav {
-    /* flex-basis: 555px; */
+.left-container {
     flex-basis: 50%;
-
+}
+nav, .left-content {
+    padding-left: 10px;
+}
+nav {
+    display: flex;
+    gap: 5%;
+    padding-top: 1%;
+}
+.left-content {
+    padding-top: 10px;
+}
+.right-container {
+    position: sticky;
+    top: 0;
+    align-self: flex-start; /* Necessary for sticky to work with display: flex */
+    margin-top: -10vh; /* Prevents right-descriptors from "jumping" when scrolled */
+    flex-basis: 45%;
+    padding-right: 10px;
 }
 .job-title, .me, .description {
     text-align: right;
 }
 .job-title {
     font-size: 1.2em;
-}
-.content {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.left-scroll {
-    width: 50%;
-    /* margin-top: -7%; */
-}
-.right-fixed {
-    /* flex-basis: 555px; */
-    flex-basis: 50%;
-    position: sticky;
-    top: 0;
-    padding-top: 50px;
-    align-self: flex-start; /* Necessary for sticky to work with display: flex */
 }
