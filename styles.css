@@ -26,8 +26,8 @@ a:hover {
     gap: 5%;
 }
 .right-nav {
-    /* flex-basis: 255px; */
-    flex-basis: 555px;
+    /* flex-basis: 555px; */
+    flex-basis: 50%;
 
 }
 .job-title, .me {
@@ -39,7 +39,6 @@ a:hover {
 .content {
     display: flex;
     width: 100%;
-    /* gap: 50px; */
     justify-content: space-between;
 }
 .left-scroll {
@@ -47,7 +46,8 @@ a:hover {
     /* margin-top: -7%; */
 }
 .right-fixed {
-    flex-basis: 555px;
+    /* flex-basis: 555px; */
+    flex-basis: 50%;
     position: sticky;
     top: 0;
     padding-top: 50px;
