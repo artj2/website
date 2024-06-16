@@ -30,7 +30,7 @@ a:hover {
     flex-basis: 50%;
 
 }
-.job-title, .me {
+.job-title, .me, .description {
     text-align: right;
 }
 .job-title {
