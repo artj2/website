@@ -67,3 +67,11 @@ nav {
 .job-description {
     padding-left: 2vw;
 }
+
+/* Subpage styling */
+.subpage-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
