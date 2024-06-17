@@ -16,30 +16,30 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 100%;
-    margin-top: 0cm;
+    height: 100vh;
+    margin-top: 0;
 }
 .left-container {
-    flex-basis: 50%;
+    flex-basis: 50vw;
 }
 nav, .left-content {
-    padding-left: 10px;
+    padding-left: 5vw;
 }
 nav {
     display: flex;
     gap: 5%;
-    padding-top: 1%;
+    padding-top: 1vh;
 }
 .left-content {
-    padding-top: 10px;
+    padding-top: 2vh;
 }
 .right-container {
     position: sticky;
     top: 0;
     align-self: flex-start; /* Necessary for sticky to work with display: flex */
     margin-top: -10vh; /* Prevents right-descriptors from "jumping" when scrolled */
-    flex-basis: 45%;
-    padding-right: 10px;
+    flex-basis: 40vw;
+    padding-right: 5vw;
 }
 .job-title, .me, .description {
     text-align: right;
@@ -65,5 +65,5 @@ nav {
     margin-top: 0;
 }
 .job-description {
-    padding-left: 20px;
+    padding-left: 2vw;
 }
