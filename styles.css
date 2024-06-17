@@ -48,7 +48,13 @@ nav {
     font-size: 1.2em;
     font-weight:normal;
 }
-
+.socials {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    margin-bottom: 5vh;
+    padding-right: 5.5vw;
+}
 /* CV styling */
 .cv-section {
     font-weight:normal;
