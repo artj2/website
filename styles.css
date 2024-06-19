@@ -100,7 +100,7 @@ a:active.project-link {
     color: black;
 }
 a:hover.project-link {
-    text-decoration: underline;
+    color: rgb(66, 66, 66);
 }
 .subpage-content.contact {
     gap: 2vw;
