@@ -103,3 +103,10 @@ a:hover.project-link {
 .subpage-content.contact {
     gap: 2vw;
 }
+.subpage-content.about {
+    flex-direction: column;
+    text-align: center;
+}
+.subpage-content.about ul{
+    text-align: left;
+}
