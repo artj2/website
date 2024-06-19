@@ -121,3 +121,21 @@ a:hover.project-link {
     width: 25vw;
     z-index: -1;
 }
+@media screen and (max-width: 500px) {
+    .img-about {
+        position: absolute;
+        top: auto;
+        bottom: 3vh;
+        left: 50%;
+        transform: translate(-50%);
+        height: auto;
+        width: 60vw;
+        z-index: -1;
+    }
+    .subpage-content.about {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 5vh;
+    }
+}
