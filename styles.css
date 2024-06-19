@@ -77,7 +77,26 @@ nav {
 /* Subpage styling */
 .subpage-content {
     display: flex;
+}
+.subpage-content.about {
     justify-content: center;
     align-items: center;
     height: 90vh;
+}
+.subpage-content.projects {
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.inprogress-projects, .completed-projects {
+    flex-basis: 30vw;
+}
+.project-title {
+    text-align: center;
+}
+a:link.project-link, a:visited.project-link,
+a:active.project-link {
+    color: black;
+}
+a:hover.project-link {
+    text-decoration: underline;
 }
