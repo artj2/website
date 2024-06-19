@@ -122,6 +122,9 @@ a:hover.project-link {
     padding-right: 0.5vw;
     border-radius: 25px;
 }
+div:hover.project-entry {
+    background-color: #dbdbdb;
+}
 .img-about {
     position: absolute;
     top: 2vh;
