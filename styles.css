@@ -1,7 +1,9 @@
 * {
+    font-family: lato, Helvetica, Arial, sans-serif;;
+}
+body {
     /* background-color: #324864; */
     background-color: #D1D1D1;
-    font-family: lato, Helvetica, Arial, sans-serif;;
 }
 a {
     text-decoration: none;
@@ -106,7 +108,16 @@ a:hover.project-link {
 .subpage-content.about {
     flex-direction: column;
     text-align: center;
+    position: relative;
 }
 .subpage-content.about ul{
     text-align: left;
+}
+.img-about {
+    position: absolute;
+    top: 2vh;
+    right: 1vw;
+    height: auto;
+    width: 25vw;
+    z-index: -1;
 }
