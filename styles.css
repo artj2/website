@@ -78,7 +78,7 @@ nav {
 .subpage-content {
     display: flex;
 }
-.subpage-content.about {
+.subpage-content.about, .subpage-content.contact {
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -99,4 +99,7 @@ a:active.project-link {
 }
 a:hover.project-link {
     text-decoration: underline;
+}
+.subpage-content.contact {
+    gap: 2vw;
 }
