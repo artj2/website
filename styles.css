@@ -107,7 +107,6 @@ a:hover.project-link {
 }
 .subpage-content.about {
     flex-direction: column;
-    text-align: center;
     position: relative;
 }
 .subpage-content.about ul{
@@ -118,9 +117,10 @@ a:hover.project-link {
     border-color: #b1b0b0;
     /* padding: -2vh auto auto 50px; */
     /* padding-top: -2vh; */
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     border-radius: 25px;
+    text-align: center;
 }
 div:hover.project-entry {
     background-color: #dbdbdb;
@@ -149,5 +149,11 @@ div:hover.project-entry {
         align-items: center;
         height: auto;
         margin-top: 5vh;
+    }
+    .subpage-content.projects {
+        flex-wrap: wrap;
+    }
+    .inprogress-projects, .completed-projects {
+        flex-basis: 500px;
     }
 }
