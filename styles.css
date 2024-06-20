@@ -156,4 +156,16 @@ div:hover.project-entry {
     .inprogress-projects, .completed-projects {
         flex-basis: 500px;
     }
+    /* .right-descriptors {
+        order: 1;
+    }
+    .left-container {
+        flex-basis: 100px;
+    }
+    .right-container {
+        flex-basis: 100px;
+    }
+    div.right-container {
+        order: -1;
+    } */
 }
