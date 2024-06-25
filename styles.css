@@ -156,16 +156,30 @@ div:hover.project-entry {
     .inprogress-projects, .completed-projects {
         flex-basis: 500px;
     }
-    /* .right-descriptors {
+    .right-descriptors {
         order: 1;
     }
-    .left-container {
-        flex-basis: 100px;
-    }
-    .right-container {
-        flex-basis: 100px;
+    .left-container, .right-container {
+        flex-basis: auto;
     }
     div.right-container {
         order: -1;
-    } */
+    }
+    .socials {
+        margin-bottom: 0vh;
+        padding-right: 0vw;
+    }
+    .right-container {
+        position: static;
+        top: auto;
+        align-self: flex-start;
+        margin-top: 1vh;
+        flex-basis: auto;
+        padding-right: 5vw;
+    }
+    nav {
+        gap: 25vw;
+        position: fixed;
+        top: 0;
+    }
 }
